@@ -1,0 +1,2 @@
+# TimeSeriesModel
+ORCL ARIMA Model 
