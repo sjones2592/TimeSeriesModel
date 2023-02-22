@@ -120,7 +120,7 @@ pd.concat((prices_train[-100:],
 plt.legend(['Training set', 'Actual price', 'Rolling forecast', 'Multi-step forecast'])
 plt.grid()
 plt.title('Rolling forecast vs Multi-step forecast')
-plt.ylabel('Apple stock price')
+plt.ylabel('Oracle stock price')
 plt.show()
 
 def forecast_accuracy(df_rolling, prices_test):
